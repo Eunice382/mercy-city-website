@@ -337,3 +337,28 @@ main h1 {
     color: #00288e;
     transition: 0.3s;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    max-width: 100%;
+}
+
+.navigation {
+    width: 100%;
+    max-width: 100%;
+}
+
+.navigation a {
+    white-space: normal;
+    overflow-wrap: break-word;
+}
