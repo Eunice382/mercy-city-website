@@ -1,0 +1,339 @@
+
+body {
+    background-color: #f7f9fb;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px 15px;
+}
+
+h1 {
+    color: #00288e;
+    font-size: 30px;
+}
+
+p {
+    color: #565e74;
+}
+
+button {
+    background-color: #00288e;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+
+/* GENERAL STYLING */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f9fb;
+}
+
+/* WEBSITE HEADER */
+
+.header {
+    background: #00288e;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* LOGO */
+
+.logo {
+    width: 45px;
+    height: 45px;
+    background: #ffddb8;
+    color: #00288e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* MINISTRY NAME */
+
+.ministry-name {
+    flex: 1;
+}
+
+.ministry-name h2 {
+    font-size: 18px;
+}
+
+.ministry-name p {
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+/* MENU BUTTON */
+
+#menuBtn {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* MAIN CONTENT */
+
+main {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+main h1 {
+    color: #00288e;
+    margin-bottom: 10px;
+}
+
+/* NAVIGATION MENU */
+
+.navigation {
+    display: none;
+    flex-direction: column;
+    background: #00288e;
+    padding: 10px 20px;
+}
+
+.navigation.active {
+    display: flex;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    font-size: 15px;
+}
+
+.navigation a:hover {
+    background: #1e40af;
+    color: #ffddb8;
+}
+
+/* MENU BUTTON */
+
+#menuBtn {
+    cursor: pointer;
+}
+.sermons-section {
+    padding: 30px 20px;
+    background: #f5f7ff;
+}
+
+.sermons-section h2 {
+    color: #00288e;
+    text-align: center;
+    font-size: 25px;
+}
+
+.section-intro {
+    text-align: center;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.sermon-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sermon-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.sermon-image {
+    background: #00288e;
+    color: #d4af37;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+
+.sermon-content {
+    padding: 18px;
+}
+
+.sermon-category {
+    color: #b38b20;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.sermon-content h3 {
+    color: #00288e;
+    margin: 8px 0;
+}
+
+.sermon-content p {
+    color: #555;
+    font-size: 14px;
+}
+
+.listen-btn {
+    background: #00288e;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+@media (min-width: 700px) {
+
+    .sermon-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sermon-card {
+        width: 45%;
+    }
+
+}
+.category-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.filter-btn {
+    padding: 10px 15px;
+    border: 1px solid #00288e;
+    border-radius: 20px;
+    background: white;
+    color: #00288e;
+    cursor: pointer;
+}
+
+.filter-btn.active {
+    background: #00288e;
+    color: white;
+}
+.about-section {
+    padding: 40px 20px;
+    background: white;
+}
+
+.about-section h2 {
+    color: #00288e;
+    text-align: center;
+    font-size: 26px;
+}
+
+.about-intro {
+    text-align: center;
+    color: #555;
+    line-height: 1.7;
+}
+
+.about-content {
+    background: #f5f7ff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.about-content h3 {
+    color: #00288e;
+    margin-top: 20px;
+}
+
+.about-content p {
+    color: #555;
+    line-height: 1.7;
+}
+.contact-section {
+    padding: 40px 20px;
+    background: #f5f7ff;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #00288e;
+    font-size: 26px;
+}
+
+.contact-details {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.contact-details h3 {
+    color: #00288e;
+}
+
+.contact-details p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #00288e;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.footer {
+    background: #00288e;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 30px;
+}
+
+.footer h3 {
+    color: #d4af37;
+    font-size: 24px;
+}
+
+.footer p {
+    line-height: 1.8;
+}
+
+.copyright {
+    font-size: 12px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    padding-top: 15px;
+    margin-top: 20px;
+}
+.listen-btn:hover {
+    background: #d4af37;
+    color: #00288e;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background: #d4af37;
+    color: #00288e;
+    transition: 0.3s;
+}
